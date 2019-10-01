@@ -6,13 +6,13 @@ Alunos: Itallo Alexsander
         
 # Padrões de Projeto Utilizados
 
-#Template
+/Template/
 Para geração do relatório de negócios tanto em PDF como XML
 
-#Adapter
+/Adapter/
 Para fazer a intermediação entre o login do SIGAA e o sistema local
 
-#Bridge
+/Bridge/
 Na interface BridgeDAO e na implementação dos DAOs, para fazer a persistência dos dados
 
 
