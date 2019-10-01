@@ -15,4 +15,7 @@ Para fazer a intermediação entre o login do SIGAA e o sistema local
 /Bridge/
 Na interface BridgeDAO e na implementação dos DAOs, para fazer a persistência dos dados
 
+/Memento/
+Usado em Usuários
+
 
