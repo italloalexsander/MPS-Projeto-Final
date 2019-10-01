@@ -1,0 +1,16 @@
+package business.control;
+
+public final class GerenteTag implements AdminCommand {
+   
+
+  public void load()
+    {
+         System.out.println("Carregando postagens dos usuários");
+    }
+
+    public void close()
+    {
+         System.out.println("Salvando postagens dos usuários");
+    }
+
+}

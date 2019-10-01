@@ -1,16 +1,19 @@
 package infra;
 
-public class Report_PDF extends Report{
+public abstract class Report {
 
-	String reportType() {
-		return "\t\tRelatório de negócios em PDF\n\n\n";
-	}
+	abstract String reportType();
+	abstract String loadReport();
+	abstract String saveReport();
 
-	String loadReport() {
-		return "\t\tCarregando informações para o PDF...\n\n\n";
-	}
+	public final void generateReport()
+	{
+		String showReport = "";
 
-	String saveReport() {
-		return "\t\tSalvando PDF...\n\n\n";
+		showReport += reportType();
+		showReport += loadReport();
+		showReport += saveReport();
+
+		System.out.println(showReport);
 	}
 }
